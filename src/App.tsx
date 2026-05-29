@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 flex items-center justify-center">
-            <img src="input_file_0.png" alt="Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+            <img src="app-icon-web.png" alt="Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
           </div>
           <span className="text-2xl font-bold tracking-tight text-slate-900">{APP_NAME}</span>
         </div>
@@ -467,7 +467,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8 py-8">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 flex items-center justify-center">
-                <img src="input_file_0.png" alt="Footer Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+                <img src="app-icon-web.png" alt="Footer Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xl font-bold text-slate-900">{APP_NAME}</span>
             </div>
