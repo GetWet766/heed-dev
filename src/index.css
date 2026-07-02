@@ -1,4 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Lora", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Overwrite Rose with Material 3 Calming Forest Green Palette */
+  --color-rose-50: #f4f8f2;
+  --color-rose-100: #e2ecd9;
+  --color-rose-200: #cbdfbf;
+  --color-rose-300: #a2cc92;
+  --color-rose-400: #74b363;
+  --color-rose-500: #386a20; /* Material 3 Primary Green */
+  --color-rose-600: #2c5519; /* Hover Primary Green */
+  --color-rose-700: #224314;
+  --color-rose-800: #1a3310;
+  --color-rose-900: #13240b;
+  --color-rose-950: #0a1306;
+
+  /* Overwrite Peach with Material 3 Sage Secondary Green Palette */
+  --color-peach-50: #f5f6f2;
+  --color-peach-100: #e4eadec9;
+  --color-peach-200: #cfdac2;
+  --color-peach-300: #afc2a0;
+  --color-peach-400: #8ba57a;
+  --color-peach-500: #55624c; /* Material 3 Secondary Green */
+  --color-peach-600: #424e3a;
+  --color-peach-700: #323a2b;
+  --color-peach-800: #22271d;
+  --color-peach-900: #131711;
+
+  /* Overwrite Emerald with Tertiary Teal/Green Palette */
+  --color-emerald-50: #f1f8f7;
+  --color-emerald-100: #dceef0;
+  --color-emerald-200: #b9dee0;
+  --color-emerald-300: #1a6568; /* Material 3 Tertiary Accent */
+  --color-emerald-400: #114446;
+  --color-emerald-500: #1a6568;
+  --color-emerald-600: #124b4d;
+  --color-emerald-700: #0a2f30;
+}
 
 @layer base {
   html {
