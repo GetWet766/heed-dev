@@ -36,7 +36,7 @@ import {
 } from './constants';
 
 // @ts-ignore
-import mockup1 from './assets/images/period_tracker_mockup_1_1782996017430.jpg';
+import mockup1 from './assets/images/Screenshot_20260702_055738.png';
 // @ts-ignore
 import mockup2 from './assets/images/period_tracker_mockup_2_1782996033318.jpg';
 
